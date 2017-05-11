@@ -1,0 +1,27 @@
+<package>
+  <name>color_pointcloud</name>
+  <version>0.0.0</version>
+  <description>color_pointcloud</description>
+  <author>Michelle Valente</author>
+  <maintainer email="michelle.valentes@gmail.com">Michelle Valente</maintainer>
+  <license>Apache 2.0</license>
+
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>opencv2</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+    <build_depend>pcl_ros</build_depend>
+  <build_depend>libpcl-all-dev</build_depend>
+
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>opencv2</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+    <run_depend>pcl_ros</run_depend>
+  <run_depend>libpcl-all</run_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
